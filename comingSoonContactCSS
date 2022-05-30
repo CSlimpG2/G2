@@ -1,0 +1,88 @@
+
+.coming_soon_sign_up {
+    background-color: #0875a8;
+    color: white;
+    font-family: "proxima-nova", sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 0.8rem;
+    line-height: 28px;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	  margin: -1.1rem;
+}
+
+.card-footer {
+	padding: 0px;
+}
+
+section.detail-snapshot-area .card .card-body .card-img-container {
+	padding-top: 20px;
+}
+
+btn-snapshot-request-quote {
+	margin-bottom: 15px;
+}
+
+.coming_soon_sign_up p {
+	margin-bottom: 0;
+}
+.coming_soon_sign_up input[type=text] {
+	max-width: 97%;
+	text-align: left;
+}
+
+.coming_soon_sign_up input[type=email] {
+	max-width: 97%;
+}
+
+.coming_soon_sign_up  {
+	align-items: left;
+}
+
+.get_on_the_list input[type=submit] {
+	background-color: transparent;
+	border-radius: 20px;
+	border: 1px solid white;
+	color: white;
+	padding: 0.5rem 30%;
+	text-align: center;
+	margin-left: -15%;
+	margin-top: 5%;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.get_on_the_list input[type=submit]:hover {
+	background-color: #c23c33;
+}
+
+@media screen and (min-width: 973px) and (max-width: 1175px) {
+	.coming_soon_sign_up input[type=text] {
+	width: 90%;
+	}
+	
+	.coming_soon_sign_up input[type=email] {
+		width: 90%;
+	}
+	
+	.coming_soon_sign_up {
+		padding-left: 7%;
+	}
+	
+	.get_on_the_list input[type=submit] {
+			padding: 0.5rem 15%;
+	}
+	
+	.get_on_the_list {
+		padding-left: 14%
+	}
+}
+
+@media screen and (max-width: 972px) {
+			.get_on_the_list input[type=submit] {
+				margin-left: -17%;
+	}
+}
