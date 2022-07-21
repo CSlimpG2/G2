@@ -1,0 +1,47 @@
+.site-announcement-banner {
+	width: 100%;
+	position: fixed;
+	background-color: #255d4f;
+	color: white;
+	top: 0;
+	left: 0;
+	z-index: 999999999999;
+}
+
+.announcement-content {
+	font-weight: bolder;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.announcement-content p {
+	color: white;
+}
+
+.site-announcement-banner a {
+	color: white;
+	font-weight: 800;
+	text-align: center;
+}
+
+button#announcement-close {
+    background-color: transparent;
+    border-color: transparent;
+    color: #fff;
+    padding-left: 4rem;
+	font-weight: 600;
+}
+
+.hidden {
+	display: none;
+}
+	
+
+@media only screen and (max-width: 400px) {
+	.announcement-content {
+		font-size: .7rem;
+	}
+}
