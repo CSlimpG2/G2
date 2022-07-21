@@ -1,0 +1,7 @@
+        <script>
+            const annountmentBtn = document.querySelector('#announcement-close');
+            const announcementContainer = document.querySelector('.site-announcement-banner');
+            annountmentBtn.addEventListener('click', function (e){
+                announcementContainer.classList.add('hidden');
+            })
+        </script>
