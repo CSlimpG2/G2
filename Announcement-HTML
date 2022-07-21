@@ -1,0 +1,18 @@
+<?php
+		$announcement = get_field('announcement_content', 'option');
+		$announcement_link = get_field('announcement_link', 'option');
+	?>
+	<?php if (!empty($announcement)) : ?>
+		<div class="site-announcement-banner">    
+                <div class="announcement-content">
+                    <div class="announcement-main-content">
+                        <p>
+							<?php if (!empty($announcement_link)) : ?><a href="<?php echo $announcement_link; ?>"><?php endif; ?><?php echo $announcement; ?></a>
+                        </p>
+                    </div>  
+					<div class="close-btn">
+                        <button id="announcement-close" type="button">X</button>
+                    </div>
+            </div>
+        </div>
+	<?php endif; ?>	
